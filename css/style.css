@@ -29,10 +29,33 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
+.row {
+  display: flex;
+
+  row-gap: 1rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+[class*="col"] {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.col-1-2 {
+  width: calc(100% / 2);
+}
 .btn-small {
-  background-color: blue;
+  background-color: #0062fe;
   color: white;
   padding: 10px 20px;
+}
+.btn-big {
+  background-color: #0062fe;
+  color: white;
+  padding: 10px 20px;
+}
+p {
+  font-size: small;
+  font-weight: 300;
 }
 /*HEADER*/
 .menu-dropbox {
@@ -57,4 +80,19 @@ li {
 .login-dropbox {
   display: flex;
   align-items: center;
+}
+/*MAIN*/
+.top-hub {
+  background-color: #b4d0e7;
+  padding-top: 50px;
+}
+
+.first-section {
+  text-align: start;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.bord {
+  border: 1px solid #fafafa;
+  padding-top: 50px;
 }
