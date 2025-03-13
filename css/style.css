@@ -78,8 +78,8 @@ img {
 .col-70 {
   width: 70%;
 }
-.col-1-6 {
-  width: calc(100% / 6);
+.col-1-5 {
+  width: calc(100% / 5);
 }
 .btn1 {
   background-color: #0062fe;
@@ -95,8 +95,20 @@ img {
   margin-bottom: 10px;
 }
 
-.radio-btn {
-  border-radius: 1px;
+.radio-btn1 {
+  border-radius: 50%;
+  border: 10px double blue;
+
+  vertical-align: middle;
+}
+.radio-btn2 {
+  border-radius: 50%;
+  border: 10px double rgb(212, 212, 214);
+
+  vertical-align: middle;
+}
+.biling {
+  vertical-align: middle;
 }
 p {
   font-size: small;
@@ -131,6 +143,8 @@ li {
   align-items: center;
 }
 /*MAIN*/
+
+/*TOPHUB*/
 #top-hub {
   background-color: #b4d0e7;
   padding-top: 50px;
@@ -139,6 +153,7 @@ li {
   position: relative;
   top: 50px;
 }
+
 #top-hub .arrow {
   margin-top: auto;
   margin-bottom: 50px;
@@ -151,22 +166,29 @@ li {
 #top-hub p {
   padding-bottom: 50px;
 }
-#top-hub h1 {
-  font-size: 3rem;
+#top-hub h2 {
+  margin-top: 30px;
   padding-bottom: 30px;
+  padding-top: 40px;
 }
 #top-hub .btn1 {
   margin-bottom: 40px;
 }
+/*MAINHUB*/
+
 .bord {
   border: 1px solid #fafafa;
   padding-top: 50px;
 }
 
-h2 {
+#main-hub h2 {
   font-size: xx-large;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+#main-hub .billing {
+  padding-bottom: 40px;
 }
 .first-sec-users {
   max-width: 90%;
@@ -204,16 +226,19 @@ h3 {
 .enterprise-flex {
   display: flex;
   justify-content: space-between;
+  border: 1px solid#d3d2d2;
+}
+#Enterprise {
+  margin-top: 30px;
 }
 
-#Enterprise strong {
-  padding: 10px 0;
-}
 #Enterprise p {
-  padding: 10px 0;
+  margin-top: 50px;
 }
+
 #Enterprise h3 {
-  padding: 5px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #Enterprise .btn1 {
   margin-top: 10px;
@@ -229,6 +254,21 @@ h3 {
 #partner .partner-flex {
   display: flex;
 }
+#partner h2 {
+  padding-left: 30px;
+  margin-top: 40px;
+}
+#partner p {
+  padding-left: 30px;
+  margin-top: 20px;
+}
+#partner .btn-grey {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#partner {
+  margin-top: 100px;
+}
 .image-partner {
   width: 100%;
 }
@@ -236,4 +276,40 @@ h3 {
   background-color: white;
   border: 1px solid lightgray;
   padding: 10px;
+}
+/*dropbox-business*/
+.dropbox-business {
+  margin-top: 100px;
+}
+/*500.000 TEAM*/
+#C5mila-team h2 {
+  margin: 50px 0;
+}
+
+#C5mila-team a {
+  text-decoration: underline;
+}
+#C5mila-team .users {
+  margin-bottom: 100px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #000000;
+  color: white;
+}
+#info-dropbox .col-1-5 {
+  margin: 50px 0;
+}
+#info-dropbox p {
+  padding: 10px 0;
+}
+.bord-footer {
+  border: 1px solid rgb(255, 255, 255);
+  width: 10%;
+  opacity: 0, 5;
+  margin-bottom: 40px;
+}
+.earth-europe {
+  padding-bottom: 30px;
 }
