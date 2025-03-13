@@ -32,12 +32,14 @@ img {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .container2 {
   max-width: 900px;
   margin: 0 auto;
-  padding: 30px 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .row {
   display: flex;
@@ -69,6 +71,12 @@ img {
 }
 .col-1-3 {
   width: calc(100% / 3);
+}
+.col-30 {
+  width: 30%;
+}
+.col-70 {
+  width: 70%;
 }
 .btn1 {
   background-color: #0062fe;
@@ -120,15 +128,32 @@ li {
   align-items: center;
 }
 /*MAIN*/
-.top-hub {
+#top-hub {
   background-color: #b4d0e7;
   padding-top: 50px;
 }
-
-.first-section {
-  text-align: start;
-  font-size: 2rem;
-  font-weight: bold;
+#top-hub .container {
+  position: relative;
+  top: 50px;
+}
+#top-hub .arrow {
+  margin-top: auto;
+  margin-bottom: 50px;
+}
+#top-hub .col-30 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#top-hub p {
+  padding-bottom: 50px;
+}
+#top-hub h1 {
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+#top-hub .btn1 {
+  margin-bottom: 40px;
 }
 .bord {
   border: 1px solid #fafafa;
@@ -153,6 +178,7 @@ h3 {
 }
 .card-plan {
   border: 1px solid#d3d2d2;
+  height: 100%;
 }
 .text-grey {
   color: #9fa8b3;
@@ -170,4 +196,41 @@ h3 {
 .label-Team {
   border: 1px solid #d3d2d2;
   text-align: center;
+}
+/*ENTERPRISE*/
+.enterprise-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Enterprise strong {
+  padding: 10px 0;
+}
+#Enterprise p {
+  padding: 10px 0;
+}
+#Enterprise h3 {
+  padding: 5px 0;
+}
+#Enterprise .btn1 {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.enterprise-plan {
+  margin: 10px;
+}
+#Enterprise .building-center {
+  text-align: center;
+}
+/*PARTNER*/
+#partner .partner-flex {
+  display: flex;
+}
+.image-partner {
+  width: 100%;
+}
+#partner .btn-grey {
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px;
 }
