@@ -95,18 +95,10 @@ img {
   margin-bottom: 10px;
 }
 
-.radio-btn1 {
-  border-radius: 50%;
-  border: 10px double blue;
-
+.payment-inp {
   vertical-align: middle;
 }
-.radio-btn2 {
-  border-radius: 50%;
-  border: 10px double rgb(212, 212, 214);
 
-  vertical-align: middle;
-}
 .biling {
   vertical-align: middle;
 }
@@ -153,10 +145,16 @@ li {
   position: relative;
   top: 50px;
 }
+#top-hub h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  padding-bottom: 50px;
+}
 
 #top-hub .arrow {
   margin-top: auto;
   margin-bottom: 50px;
+  font-size: 3rem;
 }
 #top-hub .col-30 {
   display: flex;
@@ -165,6 +163,8 @@ li {
 }
 #top-hub p {
   padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 0.9rem;
 }
 #top-hub h2 {
   margin-top: 30px;
@@ -193,6 +193,7 @@ li {
 .first-sec-users {
   max-width: 90%;
   margin-left: 15px;
+  margin-top: 10px;
 }
 h3 {
   padding: 10px 0;
@@ -200,6 +201,7 @@ h3 {
 .plan-header {
   border-bottom: 1px solid#d3d2d2;
   text-align: center;
+  padding: 10px;
 }
 .card-plan {
   border: 1px solid#d3d2d2;
@@ -209,6 +211,9 @@ h3 {
   color: #9fa8b3;
   padding-top: 20px;
   padding-bottom: 40px;
+}
+.fa-check {
+  color: #0062fe;
 }
 .list-function {
   padding-bottom: 20px;
@@ -233,7 +238,8 @@ h3 {
 }
 
 #Enterprise p {
-  margin-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 15px;
 }
 
 #Enterprise h3 {
@@ -241,7 +247,7 @@ h3 {
   padding-bottom: 10px;
 }
 #Enterprise .btn1 {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 10px;
 }
 .enterprise-plan {
@@ -254,13 +260,13 @@ h3 {
 #partner .partner-flex {
   display: flex;
 }
-#partner h2 {
+#partner h3 {
   padding-left: 30px;
   margin-top: 40px;
+  font-size: 2rem;
 }
 #partner p {
   padding-left: 30px;
-  margin-top: 20px;
 }
 #partner .btn-grey {
   margin-left: 30px;
@@ -274,12 +280,16 @@ h3 {
 }
 #partner .btn-grey {
   background-color: white;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(0, 0, 0);
   padding: 10px;
 }
 /*dropbox-business*/
-.dropbox-business {
+#dropbox-business {
   margin-top: 100px;
+}
+#dropbox-business h3 {
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 /*500.000 TEAM*/
 #C5mila-team h2 {
@@ -288,6 +298,7 @@ h3 {
 
 #C5mila-team a {
   text-decoration: underline;
+  color: #0062fe;
 }
 #C5mila-team .users {
   margin-bottom: 100px;
